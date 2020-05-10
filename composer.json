@@ -1,0 +1,29 @@
+{
+    "name": "geste/easy-resolver",
+    "description": "Class resolver",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Georg Steltner",
+            "email": "georg.steltner@gmail.com"
+        }
+    ],
+    "config": {
+        "process-timeout" : 0,
+        "sort-packages": true
+    },
+    "require": {
+        "php": "^7.4"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Easy\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+        }
+    }
+}
